@@ -1,3 +1,13 @@
+# Denizar - Deno Api Rest Boilerplate
+Earn time with this powerful, scalable and easy to config boilerplate. 
+
+## 💾 Specs
+- Deno 1.35.0
+- MVCS pattern (Model > Route > Controller > Service)
+- Express / Cors / HTTPERRORS
+- esLint (airbnb config)
+- Helpers: Success interface & ErrorsObject Class
+
 ## ↪ Routes
 ### Route with a successful response:
 ```bash
