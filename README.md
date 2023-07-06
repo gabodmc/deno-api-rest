@@ -1,5 +1,5 @@
 ![deno-boilerplate](https://github.com/gabodmc/deno-api-rest/assets/79473217/81fbbd5e-85b8-407e-85cf-9aeda27f4ec8)
-# Denizar - Deno Api Rest Boilerplate
+# Denizard - Deno Api Rest Boilerplate
 Earn time with this powerful, scalable and easy to config boilerplate. 
 
 ## 💾 Specs
