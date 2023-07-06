@@ -9,7 +9,7 @@ export const get = async (_req: Request, res: Response, next: NextFunction) => {
     const successResponse: EndpointResponse = {
       code: 200,
       status: true,
-      message: "[Index - GET] /success retrieved successfully",
+      message: "[index - GET] / retrieved successfully",
       body: response,
     };
     res.send(successResponse)
@@ -28,14 +28,14 @@ export const getOk = async (_req: Request, res: Response, next: NextFunction) =>
     const successResponse: EndpointResponse = {
       code: 200,
       status: true,
-      message: "[Index - GET] /success retrieved successfully",
+      message: "[index - GET] /success retrieved successfully",
       body: response,
     };
     res.send(successResponse)
   } catch (error) {
     const httpError = createError(
       error.statusCode,
-      `[Error retrieving index] - [index - GET]: ${error.message}`,
+      `[Error retrieving success] - [index - GET]: ${error.message}`,
     );
     next(httpError);
   }
@@ -47,14 +47,14 @@ export const getBad = async (_req: Request, res: Response, next: NextFunction) =
     const successResponse: EndpointResponse = {
       code: 200,
       status: true,
-      message: "Operación exitosa",
+      message: "[index - GET] /error successfully",
       body: response,
     };
     res.send(successResponse)
   } catch (error) {
     const httpError = createError(
       error.statusCode,
-      `[Error retrieving index] - [index - GET]: ${error.message}`,
+      `[Error retrieving error] - [index - GET]: ${error.message}`,
     );
     next(httpError);
   }
