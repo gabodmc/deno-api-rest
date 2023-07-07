@@ -5,7 +5,6 @@ export const getSuccess = async () => {
   try {
 
     const getIndex = await 'Hello World';
-    console.log("paso")
     return getIndex;
   } catch (error) {
     console.log(error)
@@ -14,7 +13,7 @@ export const getSuccess = async () => {
 };
 
 // example of a service with an error
-export const getError = async () => {
+export const getError = () => {
   try {
     throw new ErrorObject('This is an example of an error', 404);
   } catch (error) {
