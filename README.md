@@ -2,6 +2,20 @@
 # Denizard - Deno Api Rest Boilerplate
 Earn time with this powerful, scalable and easy to config boilerplate. 
 
+### How to install
+
+```bash
+npx create-denizard-app <projectname> 
+```
+Foldername will default to "denizard-app" if not specified
+
+- [Do you have Deno intalled?](https://deno.land/manual@v1.35.0/getting_started/installation)
+- To start the server just run
+```bash
+deno task dev
+```
+- [Nodemon in Deno? YES! Denon](https://deno.land/x/denon@2.5.0)
+
 ## 💾 Specs
 - Deno 1.35.0
 - MVCS pattern (Model > Route > Controller > Service)
